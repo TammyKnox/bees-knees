@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://TammyKnox.github.io/bees-knees/",
+  "homepage":"https://tammyknox.github.io/bees-knees/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
