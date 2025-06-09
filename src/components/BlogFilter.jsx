@@ -1,4 +1,4 @@
-import '../assets/BlogFilter.css';
+import '../assets/Blog.css';
 
 function BlogFilter(props) {
 
