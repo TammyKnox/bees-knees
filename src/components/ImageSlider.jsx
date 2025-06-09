@@ -20,7 +20,7 @@ function ImageSlider(){
 
     //Uses a for loop with the push() method to add image path to the array.
     for (let i = 1; i <= 13; i++) {
-        images.push(`/images/${i}.jpg`);
+        images.push(`${import.meta.env.BASE_URL}images/${i}.jpg`);
     }
 
     //Uses the spread operator and map() method to duplicate the objects and add the path and unique identifier.

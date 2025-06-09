@@ -8,7 +8,7 @@ function BakeryLocator() {
   const [selectedTag, setSelectedTag] = useState('');
 
   useEffect(() => {
-    fetch('/data/bakeriesData.json')
+    fetch(`${import.meta.env.BASE_URL}data/bakeriesData.json`)
       .then(response => {
         if (!response.ok) throw new Error('Failed to fetch data');
         return response.json();
