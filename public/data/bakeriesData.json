@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Paris Baguette",
+        "tags": ["bakery"],
+        "location": "325 E Illinois St, Chicago, IL 60611",
+        "image": "/images/Paris-Baguette.webp",
+        "map": "https://maps.app.goo.gl/S3VbqZKNhzDk3P3z9",
+        "url": "https://parisbaguette.com/"
+    },
+
+    {
+        "id": 2,
+        "name": "The Bakehouse Chicago",
+        "tags": ["bakery"],
+        "location": "2009 W Roscoe St, Chicago, IL 60618",
+        "image": "/images/the-bakehouse.webp",
+        "map": "https://maps.app.goo.gl/kSZNSvn7zkSXu13D6",
+        "url": "https://thebakehousechicago.com/"
+    },
+
+    {
+        "id": 3,
+        "name": "Weber's Bakery",
+        "tags": ["bakery"],
+        "location": "7055 W Archer Ave, Chicago, IL 60638",
+        "image": "/images/weber.webp",
+        "map": "https://maps.app.goo.gl/knaPjCF5JP7SzJw79",
+        "url": "https://www.webersbakery.com/"
+    },
+
+    {
+        "id": 4,
+        "name": "Hexe Coffee Co.",
+        "tags": ["cafe"],
+        "location": "2000 W Diversey Pkwy, Chicago, IL 60614",
+        "image": "/images/hexe.webp",
+        "map": "https://maps.app.goo.gl/pc1SpABMXiN7Ldy67",
+        "url": "https://www.hexecoffee.com/"
+    },
+
+    {
+        "id": 5,
+        "name": "The Wormhole Coffee",
+        "tags": ["cafe"],
+        "location": "1462 N Milwaukee Ave, Chicago, IL 60622",
+        "image": "/images/wormhole.webp",
+        "map": "https://maps.app.goo.gl/Ke9msMyjbRTuF7Jm7",
+        "url": "https://the-wormhole-coffee.foodjoyy.com/"
+    },
+
+    {
+        "id": 6,
+        "name": "Cafe Deko",
+        "tags": ["cafe"],
+        "location": "800 W Diversey Pkwy, Chicago, IL 60614",
+        "image": "/images/deko.webp",
+        "map": "https://maps.app.goo.gl/xjoML1uQZVonSew5A",
+        "url": "https://cafedeko.com/"
+    }
+
+]

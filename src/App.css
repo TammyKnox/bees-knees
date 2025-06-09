@@ -1,0 +1,106 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow:hidden;
+}
+
+.main-logo{
+  width: 50px;
+  display: block;
+  margin: 1em auto;
+  padding: 0;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+h1{
+  font-family:"hegante-display";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 8rem;
+  color:#fff;
+  margin: 0;
+}
+
+h2{
+  font-family:"hegante-display";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3rem;
+  color:#fff;
+  margin: 0;
+}
+
+.main-title::after{
+  content: 'neat treats & local sweets';
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 400;
+  display:block;
+}
+
+.intro{
+  background-color:#F2DCC2;
+  padding: 3em;
+  margin:4em 1em;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  color: #000;
+}
+
+.intro > p{
+  font-family: "Comfortaa", serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.intro > h2{
+  color:#000;
+}
+
+.blog-posts{
+  background-color:#F294A5;
+  padding:2em 0em;
+  margin-bottom:0px;
+}
+
+.bakery-locator{
+  background-color:#021859;
+  padding: 2em 0em;
+  margin-bottom:0px;
+}

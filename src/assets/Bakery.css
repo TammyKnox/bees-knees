@@ -1,0 +1,119 @@
+/* src/components/Bakery.css */
+
+.bakery-container {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bakery-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.filter-form {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.filter-select {
+  padding: 1em;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  width: 50%;
+  background-color:#401D09;
+}
+.bakery-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2rem;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.bakery-card {
+    max-width: 400px;
+    min-height: 400px;
+    width: 100%;
+    flex: 1 1 300px;
+    margin:3em 1em 1em 0.5em;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid #e0e0e0;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    color:#000;
+    font-family:"Comfortaa", sans-serif;
+    animation: fadeUp 0.5s ease-out;
+    animation-fill-mode: both;
+}
+
+.bakery-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.bakery-content {
+  padding: 1rem;
+}
+
+.bakery-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  font-family:"hegante-display", serif;
+}
+
+.bakery-tags {
+  color: #1976d2;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.bakery-location {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.bakery-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.bakery-buttons a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.bakery-buttons .visit-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.bakery-buttons .map-btn {
+  background-color: #f1f1f1;
+  color: #333;
+}
