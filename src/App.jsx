@@ -17,7 +17,7 @@ function App() {
       <section className="container intro">
         <h2>Looking for a Sweet Treat?</h2>
 
-        <p>Welcome to sweet the Bee's Knees. The best place to find local sweets. Try out our bakery and cafe locator or taks some time to read a blog or two. If you're feeling really ambitious, try out our Treat Planner.</p>
+        <p>Welcome to sweet the Bee's Knees. The best place to find local sweets. Try out our bakery and cafe locator or take some time to read a blog or two.</p>
       </section>
 
       <section className="container blog-posts">
